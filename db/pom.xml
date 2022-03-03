@@ -6,19 +6,11 @@
         <artifactId>MyMavenFirstProject</artifactId>
         <groupId>netology</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../../pom.xml</relativePath>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>service</artifactId>
+    <artifactId>db</artifactId>
     <packaging>jar</packaging>
-    <dependencies>
-        <dependency>
-            <groupId>netology</groupId>
-            <artifactId>db</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
 
     <properties>
         <maven.compiler.source>16</maven.compiler.source>
